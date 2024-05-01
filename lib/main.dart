@@ -8,6 +8,6 @@ void main(List<String> args) {
 class Quiz extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: MainApp());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: MainApp());
   }
 }

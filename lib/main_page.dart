@@ -13,7 +13,9 @@ class _MainApp extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       appBar: AppBar(
+        
         title: Text("Quiz app"),
         centerTitle: true,
       ),
